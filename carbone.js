@@ -8,6 +8,10 @@ const app = express();
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
+var options = {
+  convertTo : 'pdf' //can be docx, txt, ...
+};
+
   app.get('/', function (req, res) {
     res.send('hello world')
   })
@@ -50,7 +54,7 @@ app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-
       });
 
       //render docx template to pdf file
-      carbone.render('./template/covid_template.docx', data, function(err, result){
+      carbone.render('./template/covid_template.docx', data, options, function(err, result){
         if (err) return console.log(err);
         fs.writeFileSync('./report/covid_report.pdf', result);
         // process.exit(); // to kill automatically LibreOffice workers

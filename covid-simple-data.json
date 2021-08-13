@@ -1,0 +1,87 @@
+{
+    "table": [
+        {
+            "country": "USA",
+            "confirmed": 35745024,
+            "newcases": 51898,
+            "deaths": 629315,
+            "activeCases": 5449592
+        },
+        {
+            "country": "India",
+            "confirmed": 31654584,
+            "newcases": 41790,
+            "deaths": 424384,
+            "activeCases": 417327
+        },
+        {
+            "country": "Thailand",
+            "confirmed": 615314,
+            "newcases": 18027,
+            "deaths": 4990,
+            "activeCases": 205002
+        },
+        {
+            "country": "Brazil",
+            "confirmed": 19917855,
+            "newcases": 37582,
+            "deaths": 556437,
+            "activeCases": 741876
+        },
+        {
+            "country": "Argentina",
+            "confirmed": 4929764,
+            "newcases": 10356,
+            "deaths": 105721,
+            "activeCases": 254491
+        },
+        {
+            "country": "Colombia",
+            "confirmed": 4785320,
+            "newcases": 9029,
+            "deaths": 120723,
+            "activeCases": 86078
+        },
+        {
+            "country": "Russia",
+            "confirmed": 6265873,
+            "newcases": 23807,
+            "deaths": 158563,
+            "activeCases": 498651
+        },
+        {
+            "country": "France",
+            "confirmed": 6127019,
+            "newcases": 23471,
+            "deaths": 111867,
+            "activeCases": 314380
+        },
+        {
+            "country": "UK",
+            "confirmed": 5856528,
+            "newcases": 26144,
+            "deaths": 129654,
+            "activeCases": 1218244
+        },
+        {
+            "country": "Spain",
+            "confirmed": 4447044,
+            "newcases": 0,
+            "deaths": 81486,
+            "activeCases": 654358
+        },
+        {
+            "country": "Turkey",
+            "confirmed": 5727045,
+            "newcases": 22332,
+            "deaths": 51332,
+            "activeCases": 221353
+        }
+    ],
+    "graph": {
+        "confirmed": "../template/elements/confirmed.png",
+        "newcases": "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg",
+        "deaths": "../template/elements/death.png",
+        "activeCases": "../template/elements/active.png"
+    }
+}
